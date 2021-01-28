@@ -1,5 +1,5 @@
 billing:
-  tax_config:
+  taxConfig:
     taxA:
       minPrice: 1000
       maxPrice: 7500
@@ -13,3 +13,5 @@ billing:
       minPrice: 0
       tax: 200
       type: "fixed"
+
+logging.file.name: billing-system.log

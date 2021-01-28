@@ -7,24 +7,11 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
-@Component
-@ConfigurationProperties (prefix = "billing")
 @Getter
 @Setter
 @ToString
+@Component
+@ConfigurationProperties (prefix = "billing")
 public class BillingServiceConfig {
-    Map<String, TaxEntity> taxConfig;
-
-    @Getter
-    @Setter
-    @ToString
-    public static class TaxEntity {
-        Double minPrice;
-
-        Double maxPrice;
-
-        Double tax;
-
-        TaxType type;
-    }
+    private Map<String, TaxConfig> taxConfig;
 }

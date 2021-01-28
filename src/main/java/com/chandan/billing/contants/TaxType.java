@@ -1,4 +1,4 @@
-package com.chandan.billing.config;
+package com.chandan.billing.contants;
 
 /**
  * @author HariomYadav
