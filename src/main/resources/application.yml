@@ -1,0 +1,15 @@
+billing:
+  tax_config:
+    taxA:
+      minPrice: 1000
+      maxPrice: 7500
+      tax: 12
+      type: "percentage"
+    taxB:
+      minPrice: 7500
+      tax: 18
+      type: "percentage"
+    taxC:
+      minPrice: 0
+      tax: 200
+      type: "fixed"
